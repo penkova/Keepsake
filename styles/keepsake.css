@@ -1,0 +1,149 @@
+.buffer-bottom-md{
+	padding-bottom: 20px;
+}
+.buffer-bottom-lg{
+	padding-bottom: 40px;
+}
+
+/*overrides*/
+body{
+	font-size: 16px;
+	color: #808080;
+}
+@media  screen {
+	
+}
+h1{
+	text-align: center;
+	font-stretch: ultra-expanded;
+	font-size: 28px;
+	letter-spacing: 7px;
+}
+h2{
+	font-size: 31px;
+	letter-spacing: 3px;
+}
+li a{
+	font-family: 'Oswald', Arial, sans-serif;
+	text-transform: uppercase;
+	color: #4d4d4d;
+}
+h3{
+	font-size: 21px;
+	letter-spacing: 2.4px;
+}
+h3::after{
+	content: "--";
+	color: #ef5f60;
+	margin-left: 10px; 
+}
+h1,h2,h3,h4,h5{
+	color: #4d4d4d;
+	text-transform: uppercase;
+	font-family: 'Oswald', Arial, sans-serif;
+}
+
+
+.btn{
+	text-transform: uppercase;
+	font-size: 15px;
+	border-radius: 0;
+	padding: 10px 25px;
+}
+/*modules*/
+.ks-header{
+	padding: 15px 0;
+}
+.navbar .logo{
+	padding: 0;
+	height: auto;
+	width: 126px;
+}
+.navbar .hamburger{
+	background: transparent;
+	border: none;
+}
+.navbar .hamburger .icon-bar{
+	background-color: red;
+}
+.ks-banner{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #f1f4f5;
+}
+@media (max-width: 768px) {
+	.ks-portfolio{
+		margin-bottom:20px; 
+		padding: 0 30px; 
+	}	
+}
+.ks-portfolio{
+		margin-top: 20px;
+}
+@media (min-width: 768px) {
+	.ks-portfolio button {
+		float:right;
+	}	
+}
+.ks-portfolio img{
+	margin-bottom: 15px;
+	width: 100%;
+	max-width: none;
+}
+@media (min-width: 768px) {
+	.ks-portfolio img{
+	margin-bottom: 30px;
+}
+}
+@media (max-width: 768px) {
+	.ks-about-us{
+
+		margin-bottom:20px; 
+		padding: 0 30px; 
+	}	
+}
+.ks-about-us{
+	margin-top: 70px;
+	padding: 0 30px; 
+}
+.icon-envelop{
+	padding: 0;
+	margin: 0;
+}
+.circle{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border-radius: 30px;
+}
+.circle-about-us{
+		margin: 30px 30%;
+		width: 110px;
+        height: 110px;
+        background: #f1f4f5;
+        text-align: center;
+        border-radius: 110px;
+}
+.circle-about-us img{
+	margin-top: 22px;
+}
+.ks-footer{
+	margin-top: 40px;
+	padding-bottom: 15px;
+	background: #2d2d30;
+}
+.circle a{
+	color: #FFF;
+	line-height: 30px;
+}
+.ks-journal h3{
+	padding-left: 10px; 
+}
+.ks-icons{
+	padding-top: 30px;
+	margin-left: 50px;
+}
+.ks-form{
+	width: 400px;
+	padding: 15px;
+}
